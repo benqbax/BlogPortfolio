@@ -1,0 +1,48 @@
+$white:#FFFFFF;
+$light:#9a9da4;
+$border:#E9E9E9;
+$highlight:#8bc6db;
+$dark:#424652;
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+@import 'normalize';
+
+.clearfix:before,
+.clearfix:after {
+	content:" ";
+	display: table;
+}
+
+.clearfix:after{
+	clear:both;
+}
+
+#main_application{
+	padding: 2.5em 5%;
+	border-bottom: 1px solid $border;
+	.name{
+		font-weight: 700;
+		font-size:.8em;
+		text-transform:uppercase;
+		text-decoration: none;
+		border:2px solid $border;
+		padding:1rem;
+		float:left;
+		color:$dark;
+		letter-spacing: 4px;
+	}
+	nav{
+		float:right;
+		padding-top:1.25rem;
+		a{
+			color:$dark;
+			text-decoration: none;
+			margin: 0 1rem;
+			font-size: 1rem;
+		}
+	}
+}
+
